@@ -1,0 +1,104 @@
+/* HEADER */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  background: none;
+  font-family: roboto;
+} 
+
+
+header {
+	background: #148114;
+   border-radius: 2px;
+}
+
+#title {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 20px;
+  height: 100px;
+
+}
+
+
+header p {
+  text-align: center;
+  font-size: 25px;
+}
+
+
+
+/* STATUTS */
+
+.statuts {
+  width: 300px;
+  height: 70px;
+  text-align: center;
+  background-color: rgb(223, 218, 209);
+  border: solid 5px rgb(226, 226, 226);
+  border-radius: 5px;
+  border-left-color: green;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: 200px;
+  color: black;
+}
+
+
+.statuts1 { 
+  width: 300px;
+  height: 70px;
+  text-align: center;
+  background-color: rgb(223, 218, 209);
+  border: solid 5px rgb(226, 226, 226);
+  border-radius: 5px;
+  border-left-color: red;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: 100px;
+  color: black;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+
+footer {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 300px;
+  height: 150px;
+  line-height: 60px;
+  margin-bottom: 0px;
+  background : #148114;
+}
+
+
+footer a {
+  text-transform: none;
+}
+
+
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+
+  header {
+    font-size: 20px;
+  }
+
+  #title  {
+    margin-bottom: 20px;
+  }
+
+
+
+}   
